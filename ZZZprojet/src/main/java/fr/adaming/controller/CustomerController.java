@@ -21,6 +21,7 @@ public class CustomerController {
 ///hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 		//jjjjjjjjjjjjjjjj
 		//fgfgfgffg
+		//nomane
 		ICustomerService custService=new CustomerServiceImpl();
 		//gggggg
 		return custService.getAllsCustomers() ;
