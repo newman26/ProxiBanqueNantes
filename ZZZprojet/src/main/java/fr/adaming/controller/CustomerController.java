@@ -18,6 +18,7 @@ public class CustomerController {
 	@RequestMapping(value = "/customers", method = RequestMethod.GET,headers="Accept=application/json")
 	public List<Customer> getCountries()
 	{
+		//fgfgfgffg
 		ICustomerService custService=new CustomerServiceImpl();
 		//gggggg
 		return custService.getAllsCustomers() ;
