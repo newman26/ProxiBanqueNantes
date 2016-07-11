@@ -27,6 +27,11 @@ public class CustomerController {
 		return custService.getAllsCustomers() ;
 	}
 	
+	public void srting(){
+		
+		
+	}
+	
 	@RequestMapping(value = "/customer/{pin}", method = RequestMethod.GET,headers="Accept=application/json")
 	public Customer getCountryById(@PathVariable int pin)
 	{	ICustomerService custService=new CustomerServiceImpl();
