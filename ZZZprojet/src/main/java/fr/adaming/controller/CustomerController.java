@@ -12,12 +12,13 @@ import fr.adaming.metier.CustomerServiceImpl;
 import fr.adaming.metier.ICustomerService;
 import fr.adaming.model.Customer;
 
-//HHHHHHH
+
 @RestController
 public class CustomerController {
 	@RequestMapping(value = "/customers", method = RequestMethod.GET,headers="Accept=application/json")
 	public List<Customer> getCountries()
 	{//hghghgh
+		//fgfgfgffg
 		ICustomerService custService=new CustomerServiceImpl();
 		//gggggg
 		return custService.getAllsCustomers() ;
