@@ -19,7 +19,7 @@ public class CustomerController {
 	public List<Customer> getCountries()
 	{
 		ICustomerService custService=new CustomerServiceImpl();
-		
+		//gggggg
 		return custService.getAllsCustomers() ;
 	}
 	
