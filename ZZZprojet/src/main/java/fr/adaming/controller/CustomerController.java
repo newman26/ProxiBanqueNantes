@@ -17,7 +17,8 @@ import fr.adaming.model.Customer;
 public class CustomerController {
 	@RequestMapping(value = "/customers", method = RequestMethod.GET,headers="Accept=application/json")
 	public List<Customer> getCountries()
-	{
+	{//hghghgh
+
 		//fgfgfgffg
 		ICustomerService custService=new CustomerServiceImpl();
 		//gggggg
